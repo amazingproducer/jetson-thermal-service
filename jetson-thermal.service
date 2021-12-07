@@ -1,0 +1,11 @@
+[Unit]
+Description=Thermal Reporting Service for Jetson Nano Devices
+After=network.target
+
+[Service]
+Type=simple
+Restart=always
+ExecStart=/usr/local/bin/thermal_server.py
+
+[Install]
+WantedBy=multi-user.target
