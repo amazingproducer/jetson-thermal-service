@@ -14,7 +14,7 @@ usage: nanotemp.py [-h] server port [sensor]
 positional arguments:
   server      Address of service host.
   port        Listening port of service host.
-  sensor      Query a specific thermal sensor (optional).
+  sensor      Query a specific thermal sensor (GPU/CPU, optional).
 
 optional arguments:
   -h, --help  show this help message and exit
